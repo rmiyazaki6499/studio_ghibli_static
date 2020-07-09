@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("http://studioghiblimovies.com/images/laputaww7.jpg");
+    background-size: 1750px 800px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: #009CF1;
+    border-style: solid;
+    border-width: 3px;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: ghibliFont;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    font-family: ghibliFont;
+}
+
+h3 {
+    padding-top: 10px; 
+    text-align: center;
+    color: white;
+    font-family: ghibliFont;
+}
+
+p {
+    align-itens: center;
+    align-self: center;
+    font-family: ghibliFont;
+}
+
+.small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: ghibliFont;
+    src: url(https://www.myfonts.com/fonts/alsamman/ghibli/);
+}
+
+header{
+    padding-bottom: 120px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    object-fit: contain; 
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+li {
+    padding-bottom: 15px;
+}
+
